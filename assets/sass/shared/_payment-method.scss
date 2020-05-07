@@ -1,0 +1,36 @@
+.payment-methods{
+    height: 770px;
+    background: url(../img/payment.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    background-color: #5B1F5D87;
+    margin-bottom: 100px;
+    padding: 50px 100px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 95%, 0 70%);
+    .methods-content{
+        h2{
+            color: #fff;
+            span{
+                color: $sec-color;
+                margin-right: 10px;
+                font-weight: bold;
+            }
+        }
+        p{
+            color: #adb5bd;
+            font-size: 20px;
+        }
+    }
+    .methods-images{
+        padding: 50px 120px;
+        .list-group-item{
+            border: none;
+            background: none;
+            margin: auto;
+            img{
+                width: 300px;
+            }
+        }
+    }
+}

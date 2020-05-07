@@ -1,0 +1,30 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar-light{
+    .navbar-nav {
+        margin-right: 20px;
+        .nav-link{
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold;
+            padding-right: 1.5rem;
+            &:hover{
+                color: $sec-color;
+            }
+        }
+        .nav-link.lang{
+            // font-family: 'Amiri', serif;
+            background-color: $sec-color;
+            color: #fff;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            text-align: center;
+            padding: 5px;
+            margin-left: 80px;
+        }
+    }
+}
