@@ -1,0 +1,50 @@
+.features{
+    padding: 50px 0;
+    text-align: center;
+    background: url('../img/Path\ 13.svg');
+    height: 759px;
+    .title{
+        h2{
+            color: $main-color;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+    }
+    .slider{
+        padding: 50px 0;
+        
+        .card{
+            margin: auto;
+            border: none;
+            background: none;
+            .card-title{
+                font-weight: bold;
+                color: #fff;
+            }
+            .card-text{
+                color: #E1D9D9;
+            }
+        }
+        .owl-carousel .owl-item img{
+            width: fit-content;
+            margin: auto;
+        }
+        .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+            width: 35px;
+            height: 35px;
+            background-color: $main-color;
+            color: #fff;
+            border-radius: 50%;
+            margin: 100px 5px 0;
+            font-size: 35px;
+            span{
+                display: block;
+                margin: -30px 0;
+                width: 100%;
+            }
+        }
+        button:focus{
+            outline: unset !important;
+        }
+    }
+}

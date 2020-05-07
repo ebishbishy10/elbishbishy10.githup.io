@@ -1,0 +1,110 @@
+.pricing{
+    padding: 150px;
+    .price-table{
+        background: url('../img/Path\ 3.svg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 591px;
+        height: 860px;
+        padding: 50px 30px;
+        box-shadow: -1px -1px 10px #00000029;
+        border-radius: 30px;
+        text-align: center;
+        .list-group{
+            .list-group-item{
+                border: none;
+                background: none;
+                padding: 0;
+                color: #fff;
+                font-size: 29px;
+                &:first-child{
+                    color: #000;
+                }
+                span{
+                    color: $sec-color;
+                    font-weight: bold;
+                    font-size: 50px;
+                    text-align: left;
+                    margin-right: 30px;
+                    background: none;
+                }
+                .btn{
+                    padding: .375rem 3rem;
+                    margin: auto;
+                    border-radius: 20px;
+                    margin-top: 50px;
+                    font-weight: bold;
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    .content{
+        padding: 20px;
+        h2{
+            font-weight: bold;
+            color: $main-color;
+        }
+        p{
+            color: $main-color;
+            font-size: 24px;
+        }
+        .row{
+            p{
+                color: $font-color;
+                font-size: 20px;
+                span{
+                    color: $sec-color;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .payment-text{
+        padding: 100px 20px 0 0;
+        h2{
+            color: $main-color;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        h5{
+            color: $sec-color;
+        }
+        p{
+            color: $font-color;
+        }
+    }
+    .payment-form{
+        width: 409px;
+        height: 695px;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 2px solid #2190A8;
+        border-radius: 6px;
+        margin-top: 40px;
+        padding: 5px 15px;
+        .payment-option{
+            margin-top: 20px;
+            padding: 10px;
+            .list-group-item{
+                border: none;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .payment-card{
+            padding: 40px;
+        }
+        .payment-btn{
+            margin: 40px auto 0;
+
+        }
+        .payment-img{
+            padding: 50px 0;
+            img{
+                margin: auto;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+footer{
+    padding: 15px 0 1px 0;
+    background-color: $main-color;
+    text-align: center;
+    p{
+        color: #fff;
+        span{
+            color: $sec-color;
+            font-weight: bold;
+        }
+    }
+}

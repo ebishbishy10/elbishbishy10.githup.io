@@ -1,0 +1,118 @@
+.contactUs{
+    padding: 0px;
+    margin-bottom: 100px;
+    box-shadow: -1px -1px 30px #00000029;
+    border-radius: 15px;
+    .contact-info{
+        background-color: $main-color;
+        padding: 30px;
+        color: #fff;
+        border-radius: 15px 0px 0px 15px;
+        h2{
+            margin-bottom: 50px;
+        }
+        .info{
+            padding: 15px 8px;
+            p{
+                a{
+                    color: #DFD4D4;
+                    font-weight: bold;
+                    &:hover{
+                        color: $third-color;
+                    }
+                }
+                span{
+                    color: $sec-color;
+                    margin-right: 10px;
+                    font-size: 24px;
+                }
+            }
+        }
+        .social{
+            margin: 10px;
+            .list-group-item{
+                border: none;
+                background: none;
+                padding: 0;
+                padding-right: 15px;
+                a{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: $sec-color;
+                    color: #fff;
+                    display: inline-block;
+                    text-align: center;
+                    padding: 7px 0;
+                    &:hover{
+                        background-color: $third-color;
+                    }
+                }
+            }
+        }
+        .subscribe{
+            margin: 50px 15px;
+            .form-control{
+                border-radius: 35px 0 0 35px;
+                padding: 1.5rem .75rem;
+                border: none;
+                font-weight: bold;
+            }
+            .btn-outline-secondary{
+                color: #fff;
+                background-color: $sec-color;
+                border-color: $sec-color;
+                border-radius: 0 35px 35px 0;
+                font-weight: bold;
+            }
+        }
+        .flotIcon{
+            padding: 15px;
+            position: absolute;
+            top: 50%;
+            right: -4%;
+            background-color: #5b1f5d;
+            border-radius: 50%;
+            i{
+                font-size: 35px;
+            }
+        }
+    }
+    .contact-form{
+        padding: 30px;
+        h2{
+            color: $main-color;
+            margin-bottom: 50px;
+        }
+        .input-group-text{
+            background: none;
+            border: none;
+            color: $sec-color;
+            border-bottom: 2px solid $sec-color;
+            border-radius: 0;
+        }
+        .form-control{
+            border: none;
+            border-bottom: 2px solid $sec-color;
+            border-radius: 0;
+            font-weight: bold;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .contact-btn{
+            background-color: $sec-color;
+            border-color: $sec-color;
+            display: block;
+            margin: 10px auto;
+            padding: 1rem 2.5rem;
+            border-radius: 40px;
+            font-size: 19px;
+            font-weight: bold;
+        }
+    }
+    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+        background-color: $third-color;
+        border-color: $third-color;
+    }
+}

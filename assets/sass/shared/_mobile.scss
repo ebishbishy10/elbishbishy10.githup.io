@@ -1,0 +1,254 @@
+@media (max-width: 767.98px) { 
+    
+
+    //  navbar ( header )
+
+    .navbar{
+        background-color: $main-color;
+        border-bottom: 2px solid $sec-color;
+        .navbar-nav {
+            margin-right: 0;
+            padding-left: 20px;
+            .nav-link{
+                color: $third-color;
+                font-size: 15px;
+            }
+            .nav-link.lang{
+                margin-left: 0;
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+    .navbar-light .navbar-toggler {
+        color: $sec-color !important;
+        border-color: $sec-color;
+    }
+
+    // bannar 
+
+    .bannar{
+        position: unset;
+        background: url(../img/payment.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        background-color: rgba(91, 31, 93, 0.5);
+        .content{
+            padding: 30px 15px;
+            h1{
+                font-size: 1.5rem;
+                color: #fff;
+            }
+            p{
+                font-size: 13px;
+                color: #dee2e6;
+            }
+            .btn-primary{
+                background-color: $sec-color;
+                border-color: $sec-color;
+            }
+        }
+        .bg-img{
+            display: none;
+        }
+    }
+
+    // about us
+
+    .aboutUs{
+        padding: 100px 15px;
+        .content{
+            margin-left: 0;
+            padding: 50px 0;
+            h2{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+
+    // feature
+
+    .features{
+        background-size: cover;
+        background-position: 70% -60px;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 0;
+        .title {
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+        .slider{
+            padding: 35px 15px 90px;
+            .card{
+                width: 100% !important;
+                .card-body{
+                    padding: 1.25rem 0.58rem;
+                    h5{
+                        font-size: 1.5rem;
+                    }
+                    .card-text{
+                        font-size: 14px;
+                    }
+                }
+            }
+            .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+                margin: 30px 5px 0;
+            }
+        }
+    }
+
+    // pricing
+
+    .pricing{
+        padding: 100px 15px;
+        .price-table{
+            width: 100%;
+            background-size: cover;
+            background-position: 40% 160px;
+            height: auto;
+            padding: 75px 10px;
+            .list-group-item{
+                font-size: 14px !important;
+                span{
+                    font-size: 25px !important;
+                    margin-right: 0 !important;
+                }
+                .btn{
+                    padding: .375rem 2rem !important; 
+                }
+            }
+        }
+        .content{
+            padding: 20px 0;
+            h2{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 14px !important;
+            }
+        }
+        .payment-text{
+            padding: 0;
+            h2{
+                font-size: 1rem;
+                margin-bottom: 25px;
+            }
+            h5{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+        .payment-form{
+            width: 100%;
+            height: auto;
+            img{
+                width: 100%;
+            }
+            .payment-btn{
+                margin: 10px auto 5px;
+            }
+        }
+        .payment-img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    // payment methods
+
+    .payment-methods{
+        height: auto;
+        padding: 15px 0px 90px;
+        text-align: center;
+        .methods-content{
+            h2{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+        .methods-images{
+            padding: 0;
+            .list-group-item{
+                padding: 5px 10px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+
+    // contact us 
+    .contact{
+        padding: 0 20px;
+        .contactUs{
+            .contact-info{
+                padding: 15px 10px 25px;
+                border-radius: 15px 15px 0 0;
+                h2{
+                    font-size: 1.5rem;
+                    margin-bottom: 25px;
+                }
+                .info{
+                    padding: 0 5px;
+                    p{
+                        font-size: 11px !important;
+                        span{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .subscribe{
+                    margin: 20px 0px;
+                    .form-control{
+                        font-size: 11px;
+                    }
+                    .btn-outline-secondary{
+                        font-size: 14px;
+                    }
+                }
+                .flotIcon{
+                    bottom: -25px;
+                    right: 42%;
+                    top: unset;
+                    i{
+                        font-size: 25px;
+                    }
+                }
+            }
+            .contact-form{
+                padding: 40px 10px 15px;
+                h2{
+                    font-size: 1.5rem;
+                    margin-bottom: 25px;
+                }
+                .form-control{
+                    font-size: 13px;
+                }
+                .contact-btn{
+                    font-size: 15px ;
+                }
+            }
+        }
+    }
+
+    // footer 
+     
+    footer{
+        p{
+            font-size: 13px;
+        }
+    }
+
+}
